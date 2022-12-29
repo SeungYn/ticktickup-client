@@ -1,0 +1,33 @@
+.form {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $backgroundColor;
+
+  padding: 0 4rem;
+
+  & *:not(label) {
+    margin-bottom: 0.8rem;
+    background: black;
+  }
+
+  & > h1 {
+    margin: 0;
+  }
+
+  & input {
+    font-size: 1.4rem;
+    width: 100%;
+  }
+}
+
+.text {
+}
+
+@media (max-width: 800px) {
+  .form {
+  }
+}
